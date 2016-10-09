@@ -25,7 +25,7 @@ weixin.textMsg(function(msg) {
         fromUserName : msg.toUserName,
         toUserName : msg.fromUserName,
         msgType : "text",
-        content : "这是文本回复",
+        content : "这是lidy的测试号",
         funcFlag : 0
     };
 
@@ -124,4 +124,4 @@ app.post('/', function(req, res) {
 
 });
 
-app.listen(3000);
+app.listen(3003);
